@@ -8,8 +8,10 @@ This was the code I wrote my Computer Science dissertation from 2008. Found on a
 
 ## Compiling
 
-Building as a jar file:
-```
+To compile and build as a jar file:
+
+```bash
+javac -d ./build *.java
 jar cfm ACO.jar Manifest.txt -C build .
 ```
 
